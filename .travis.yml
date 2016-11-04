@@ -6,5 +6,5 @@ services:
 script:
   - ./build.sh
   - docker login --username $DOCKER_HUB_USERNAME --password $DOCKER_HUB_PASSWORD
-  - docker push
+  - docker push ramseykhalaf/docker-php-demo
   - docker logout
